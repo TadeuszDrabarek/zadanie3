@@ -1,0 +1,290 @@
+@charset "utf-8";
+body {
+	font-family		: Trebuchet MS, Helvetica, sans-serif;
+	font-size		: 15px;
+	font-weight		: normal;
+	font-style		: normal;
+	background-color	: #FAFAFA;
+	background: transparent url('gradient.png') top left repeat-x;
+}
+}
+
+h1,h2,h3 {
+	color			: #0E3F77;
+}
+
+h1 {
+	font-family		: Tahoma, Geneva, sans-serif;
+	font-size		: 16px;
+	font-weight		: bold;
+	font-style		: normal;
+}
+
+h2 {
+	font-family		: Tahoma, Geneva, sans-serif;
+	font-size		: 14px;
+	font-weight		: bold;
+	font-style		: normal;
+}
+
+h3 {
+	font-family		: Arial, Helvetica, sans-serif;
+	font-size		: 12px;
+	font-weight		: bold;
+	font-style		: normal;
+}
+
+h4, h5, h6 {
+	font-family		: Tahoma, Geneva, sans-serif;
+}
+
+a {
+	color			: #202022;
+}
+
+a:hover {
+	color			: #0E3F77;
+}
+
+/*         ______
+__________/ main \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#head_wrapper,
+#header {
+	
+	position: relative;
+	height: 353px;
+	width: 900px;
+	padding: 0 0;
+	text-align: left;
+	margin: 0 0;
+	overflow: hidden;
+}
+
+.header_image {
+	background-image: url("obrazek_na_gorze.png") ! important;
+	background-repeat: no-repeat ! important;
+}
+	
+#content_wrapper {
+	background-color	: #F1F3F8;
+}
+#logo {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 190px;
+	height: 90px;
+}
+
+
+#title {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 900px;
+	height: 50px;
+	background: transparent url('transparent.png');
+	overflow: hidden;
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	-moz-opacity:0.5;
+}
+
+
+#page {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#page_inner {
+	margin: 0 25px;
+}
+
+
+
+#title h1 {
+	font-family			: Tahoma, Geneva, sans-serif;
+	font-weight			: normal;
+	font-style			: normal;
+	font-size			: 26px;
+	color				: #000000;
+	filter:alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity:1;
+	margin:20px;
+}
+
+
+#cm_navigation ul {
+list-style-type: none;
+padding-left: 0px;
+margin: 0px;
+}
+
+#cm_navigation ul li {
+display: list-item;
+padding-left: 0px;
+height: 31px;
+}
+#cm_navigation ul li a {
+	background-color	: #DCE5EF;
+	color				: #0E2B77;
+	font-family			: Trebuchet MS, Helvetica, sans-serif;
+	font-style			: normal;
+	font-size			: 15px;
+	font-weight			: normal;
+display: block;
+line-height: 30px;
+padding-left: 20px;
+text-decoration: none;
+}
+
+#cm_navigation ul li a:hover {
+	background-color	: #9BA9CA;
+	color				: #333333;
+}
+
+#cm_navigation ul li.cm_current a {
+	background-color	: #9BA9CA;
+	color				: #333333;
+}
+
+/*         _______________
+__________/ Subnavigation \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#cm_navigation ul.cm_subnavigation li a {
+	background-color	: #DCE5EF;
+	color				: #0E2B77;
+	font-family			: Trebuchet MS, Helvetica, sans-serif;
+	font-style			: normal;
+	font-size			: 15px;
+	font-weight			: normal;
+}
+
+#cm_navigation ul.cm_subnavigation li a:hover {
+	background-color	: #9BA9CA;
+	color				: #333333;
+}
+
+#cm_navigation ul.cm_subnavigation li.cm_current a {
+	background-color	: #9BA9CA;
+	color				: #333333;
+}
+
+/*         ___________________
+__________/ SUB Subnavigation \_________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#cm_navigation ul.cm_subnavigation li ul.cm_subnavigation li a {
+	background-color	: #DCE5EF;
+	color				: #0E2B77;
+	font-family			: Trebuchet MS, Helvetica, sans-serif;
+	font-style			: normal;
+	font-size			: 15px;
+	font-weight			: normal;
+}
+
+#cm_navigation ul.cm_subnavigation li ul.cm_subnavigation li a:hover {
+	background-color	: #9BA9CA;
+	color				: #333333;
+}
+
+#cm_navigation ul.cm_subnavigation li ul.cm_subnavigation li.cm_current a {
+	background-color	: #9BA9CA;
+	color				: #333333;
+}
+
+/*         _________
+__________/ content \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+
+#content_left
+{
+position: relative;
+/*top: -15px;*/
+	background-color	: #F1F3F8;
+	color				: #202022;
+        width   : 300px;
+align: left;
+}
+
+#content_right {
+
+width   : 300px;
+	background-color	: #B3B2B2;
+	color				: #0E3F77;
+}
+
+#content_main {
+
+	background-color	: #F1F3F8;
+	color				: #202022;
+	font-family		    : Trebuchet MS, Helvetica, sans-serif;
+	font-size		    : 15px;
+	font-weight		    : normal;
+	font-style		    : normal;
+        width   : 580px;
+align: left;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#content_main h1 {
+	font-family		    : Tahoma, Geneva, sans-serif;
+	font-size		    : 16px;
+	font-weight		    : bold;
+	font-style		    : normal;
+}
+#content_main h2 {
+	font-family		    : Tahoma, Geneva, sans-serif;
+	font-size		    : 14px;
+	font-weight		    : bold;
+	font-style		    : normal;
+}
+#content_main h3 {
+	font-family		    : Arial, Helvetica, sans-serif;
+	font-size		    : 12px;
+	font-weight		    : bold;
+	font-style		    : normal;
+}
+#content_main a {
+	color				: #202022;
+}
+#content_main a:hover {
+	color				: #0E3F77;
+}
+
+.table tr:hover{
+        background-color	: #9BA9CA;
+	color				: #333333;
+}
+
+.edit
+{
+background-color	: #FEFEFE;
+}
+/*         ________
+__________/ footer \__________________________________________________________________
+--------------------------------------------------------------------------------------- */
+
+#footer {
+	background-color	: #B3B2B2;
+	color		: #0E3F77;
+width   : 900px;
+}
+
+
+#footer a {
+	color			: #0E3F77;
+}
+
+#footer a:hover {
+	color			: #4D4D4D;
+}
